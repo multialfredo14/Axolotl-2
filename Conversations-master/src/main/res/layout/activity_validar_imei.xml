@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#069c88"
+        android:gravity="center"
+        android:text="Validando IMEI"
+        android:textColor="#fff"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""
+        android:textSize="26dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:visibility="invisible"
+        android:layout_weight="8" />
+
+</LinearLayout>
